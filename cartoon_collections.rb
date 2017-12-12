@@ -24,4 +24,5 @@ end
 def find_the_cheese(cheese)
   cheese_types = ["cheddar", "gouda", "camembert"]
   cheese.find(ifnone = nil) { |cheese| cheese_types }
+  binding.pry
 end
