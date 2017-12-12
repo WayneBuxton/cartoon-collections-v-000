@@ -23,6 +23,8 @@ end
 
 def find_the_cheese(cheese)
   cheese_types = ["cheddar", "gouda", "camembert"]
-  cheese_types[0]
-  puts
+  if cheddar == cheese_types[0]
+    cheese_types[0]
+  else
+  end
 end
