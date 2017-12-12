@@ -25,4 +25,5 @@ def find_the_cheese(cheese)
   cheese_types = ["cheddar", "gouda", "camembert"]
   if  cheese_types.find { |cheese_types| cheese_types.length > 5 }
   else
+    puts "no cheese"
 end
