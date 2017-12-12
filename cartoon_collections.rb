@@ -23,5 +23,5 @@ end
 
 def find_the_cheese(cheese)
   cheese_types = ["cheddar", "gouda", "camembert"]
-  cheese_types.find { |cheese_types| cheese.length > 5 }
+  cheese_types.find { |cheese_types| cheese_types.length > 5 }
 end
